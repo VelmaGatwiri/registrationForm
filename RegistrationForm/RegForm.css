@@ -1,0 +1,77 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-image:url("fantasy.jpg");
+	background-size:cover;
+	color:#DDD;
+	font-size:italic;
+}
+.container{
+	padding:16px;
+	line-height:10px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	border-radius:10px;
+	box-shadow: 0px 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+	width:55%;
+	height:auto;
+	margin-left:300px;
+	}
+input[type=text], input[type=password] {
+	width:52%;
+	padding:15px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border:none;
+	background:#f1f1f1;
+	text-align:center;
+	font-family: 'Crimson Text', serif;
+	font-size: 18px;
+}
+input[type=text]:focus, input[type=password]:focus{
+	background-color:#DDD;
+	outline:none;
+}
+.regButton{
+	background-color:#A10BBF;
+	color:white;
+	padding:22px 20px;
+	margin:8px 0;
+	border:none;
+	cursor:pointer;
+	width:57%;
+	opacity:.5;
+	border-radius:15px;
+	font-weight:bold;
+	font-family: 'Lato', sans-serif;
+	font-size:22px;
+	height:55px;
+}
+.Button{
+	background-color:#A10BBF;
+	color:white;
+	padding:16px 20px;
+	margin:8px 0;
+	border:none;
+	cursor:pointer;
+	width:57%;
+	opacity:.5;
+	border-radius:15px;
+	font-weight:bold;
+	font-family: 'Lato', sans-serif;
+	font-size:22px;
+	
+}
+a{
+	text-decoration:none;
+	text-align:center;
+}
+.Button:hover{
+	opacity:1;
+}
+.regButton:hover{
+	opacity:1;
+}
